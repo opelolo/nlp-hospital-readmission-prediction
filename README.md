@@ -14,7 +14,12 @@ In this project, we will make use of the following MIMIC tables
 This notebook assumes that ADMISSIONS.csv and NOTEEVENTS.csv were downloaded and placed in the same folder as this notebook. 
 
 ## Task
-We have a task to predict 30-day unplanned readmission of patients who have been initially discharged from the electronic medical records
+We have a task to predict 30-day unplanned readmission of patients who have been initially discharged from the electronic medical records. 
+
+## Procedure
+For this task, I followed the following procedures
+1. Data cleaning: After gathering the data, I analyzed the admissions table and cleaned the data because there were missing values. Also, I cleaned the moteevents data and removed unnecessary stop words that were irrelevant
+2. Word rating: I used Bag-of-words to prioritise the words needed for our prediction in the hospital notes
 
 ## References 
 1. https://arxiv.org/abs/1801.07860
